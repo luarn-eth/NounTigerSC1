@@ -24,7 +24,7 @@ contract NounTigerContract is ERC721Enumerable, Ownable {
         //string memory _name,
         //string memory _symbol,
         //string memory _initBaseURI
-        //string memory _initUnrevealedURI
+        //string memory _initnotRevealedURI
     ) ERC721("nounstigerSC", "nst") {
         setBaseURI("ipfs://QmRdei5Bti3YGCJRyney7fdnFzMyoPT8N1XT2UVHtewFAV/");
         setNotRevealedURI("ipfs://QmZboYjTn3urYfeT8rUNpCVtyuu8D1kLEfheuNAixK4cd5");
